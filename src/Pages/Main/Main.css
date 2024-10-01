@@ -1,0 +1,76 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    margin: 0px -20px
+ 
+  }
+  
+
+  .custom-button {
+    flex: 1;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: normal;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-button:not(.active-login):not(.active-signup) {
+    background-color: white;
+    border-radius:20px;
+    border: 1px solid lightgrey;
+    color: black;
+  }
+  
+  .active-login {
+    background-color: #00ffc7;
+    color: white;
+   border-radius:20px;
+   z-index:99999999999999
+  }
+  
+  .active-signup {
+   background-color: #00ffc7;
+   color: white;
+   border-radius:20px;
+   -webkit-border-radius:20px;
+   -moz-border-radius:20px;
+   -ms-border-radius:20px;
+   -o-border-radius:20px;
+   -webkit-border-radius: 20px;
+}
+  
+
+.active-signup:hover{
+    background-color: #00ffc7 ;
+    color: white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius: 20px;
+}
+
+.active-login:hover{
+    background-color: #00ffc7 ;
+    color: white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius: 20px;
+}
+
+
+.bg-success{
+    background-color: #00ffc7 !important;
+    border: 1px solid #00ffc7 !important;
+}
